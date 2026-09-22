@@ -25,10 +25,3 @@ pnkSecurity/
 |   `-- pnk_security.sql
 
 
-
-
-### El proyecto usa funciones `mysql_*`
-
-Funciones como `mysql_connect()` fueron eliminadas de PHP hace anos. Deben
-cambiarse por `mysqli` o PDO. No reduzcas PHP a una version aun mas antigua para
-publicar el sistema.
